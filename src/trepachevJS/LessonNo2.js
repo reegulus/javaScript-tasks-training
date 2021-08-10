@@ -13,6 +13,19 @@ export function LessonNo2() {
     let clockDay = 60 * 60 * 24
     console.log('Количество секунд в часе ' + secondClock)
     console.log('Количество секунд в сутках ' + clockDay)
+
+    // Задача 3. Переделайте приведенный код так,
+    // чтобы в нем использовались операции +=, -=, *=, /=, ++, --.
+    // Количество строк кода при этом не должно измениться. Код для переделки:
+
+    let num = 1;
+    num += 12;
+    num -= 14;
+    num *= 5;
+    num /= 7;
+    num ++;
+    num --;
+    console.log(num);
     return (
         <div className={"lessonJs"}>
             <h2>Задачи на основы языка JavaScript</h2>
