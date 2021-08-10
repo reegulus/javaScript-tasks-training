@@ -51,9 +51,19 @@ export function LessonNo2() {
     let a = 10
     let b = 2
     let c = 5
-
     let result = a + b + c
     console.log(result)*/
+
+/* /!*   5. Создайте переменные a=17 и b=10. Отнимите от a переменную b и результат присвойте переменной c.
+        Затем создайте переменную d, присвойте ей значение 7. Сложите переменные c и d, а результат запишите в переменную result.
+        Выведите на экран значение переменной result.*!/
+    let a = 17
+    let b = 10
+    let c = a - b
+    let d = 7
+    let result = c + d
+    console.log(result)*/
+
 
     return (
         <div className={"lessonJs"}>
