@@ -4,6 +4,7 @@ import {LessonNo3} from "./trepachevJS/LessonNo3";
 import {LessonNo4} from "./trepachevJS/LessonNo4";
 import {LessonNo5} from "./trepachevJS/LessonNo5";
 import {LessonNo6} from "./trepachevJS/LessonNo6";
+import {TrafficLight} from "./codeWars/TrafficLight";
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
       {/*<LessonNo3/>*/}
       {/*  <LessonNo4/>*/}
       {/*  <LessonNo5/>*/}
-        <LessonNo6/>
+      {/*  <LessonNo6/>*/}
+        <TrafficLight/>
     </div>
   );
 }
