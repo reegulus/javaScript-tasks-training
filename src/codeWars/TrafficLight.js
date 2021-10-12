@@ -25,3 +25,18 @@ function UpdateLight(current) {
     }
     //your code here!
 }
+
+// Write a function that checks if a given string (case insensitive) is a palindrome.
+function isPalindrome(x) {
+    const strLen = x.length
+    const strRevers = Math.floor(strLen/2)
+
+    for(let i = 0; i < strRevers; i++) {
+        if(x[i] !==x[strLen - 1 - i]) {
+            return false
+        }
+    }
+    return isPalindrome(x)
+    return isPalindrome(x)
+    // your code here
+}
