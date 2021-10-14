@@ -37,6 +37,5 @@ function isPalindrome(x) {
         }
     }
     return isPalindrome(x)
-    return isPalindrome(x)
     // your code here
 }
